@@ -1,12 +1,47 @@
+# Python
 __pycache__/
-*.pyc
-*.pyo
-.pytest_cache/
-results/
+*.py[cod]
+*$py.class
 *.egg-info/
+*.egg
 dist/
 build/
+*.whl
+
+# Virtual environments
+venv/
 .venv/
-.env
-*.json
-!package.json
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (generated)
+results/
+
+# ROCm / GPU
+*.hip
+*.hsaco
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
